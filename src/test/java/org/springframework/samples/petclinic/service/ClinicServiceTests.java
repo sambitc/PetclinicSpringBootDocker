@@ -96,7 +96,7 @@ public class ClinicServiceTests {
         assertThat(owner.getId().longValue()).isNotEqualTo(0);
 
         owners = this.owners.findByLastName("Schultz");
-        assertThat(owners.size()).isEqualTo(found + 1);
+        assertThat(owners.size()).isEqualTo(found + 12);
     }
 
     @Test
